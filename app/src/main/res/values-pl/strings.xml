@@ -81,30 +81,30 @@
     <string name="options_fee_provider">Źródło estymacji opłat</string>
     <string name="options_fee_provider2">Wsbierz źródło szacowanych opłat transakcyjnych.</string>
     <string name="options_broadcast_on">Rozgłoś transakcję</string>
-    <string name="options_broadcast_on2">Uncheck (broadcasting OFF) to copy raw signed transaction to the clipboard.</string>
-    <string name="options_segwit">Receive to segwit addresses</string>
-    <string name="options_segwit_2">Generate segwit addresses for incoming transactions.</string>
-    <string name="options_broadcast_hex">Broadcast transaction hex</string>
-    <string name="options_broadcast_hex2">Broadcast signed transaction supplied in hex format.</string>
-    <string name="options_like_typed_change">Receive change to like-typed outputs</string>
-    <string name="options_like_typed_change2">Receive change to same type of address as spend output. Turn OFF to receive only to segwit change addresses.</string>
-    <string name="options_haptic">Haptic PIN entry</string>
-    <string name="options_haptic_2">Vibrate each digit on PIN code entry.</string>
+    <string name="options_broadcast_on2">Zablokuj (rozgłaszanie wyłączone) w celu skopiowania transakcji raw do schowka.</string>
+    <string name="options_segwit">Otrzymuj na adresy segwit</string>
+    <string name="options_segwit_2">Generuj adresy segwit dla przychodzących transakcji.</string>
+    <string name="options_broadcast_hex">Rozgłoś transakcję hex</string>
+    <string name="options_broadcast_hex2">Rozgłoś transakcję w formacie hex.</string>
+    <string name="options_like_typed_change">Otrzymuj resztę na taki sam typ adresu</string>
+    <string name="options_like_typed_change2">Otrzymuj resztę na taki sam typ adresu z jakiego wysłałeś. Wyłącz jeżeli chcesz otrzymywać resztę tylko na adresy segwit.</string>
+    <string name="options_haptic">Wibracje PIN</string>
+    <string name="options_haptic_2">Wibruj podczas wprowadzania numeru PIN.</string>
     <string name="options_prune">Prune backup</string>
     <string name="options_prune2">Prune wallet payload and backup files.</string>
-    <string name="options_address_calc">Address calculator</string>
-    <string name="options_address_calc2">Calculate addresses derived from your wallet seed.</string>
-    <string name="options_paynym_calc">PayNym calculator</string>
-    <string name="options_paynym_calc2">Calculate addresses shared with other PayNyms.</string>
-    <string name="options_indexes">Wallet indexes</string>
-    <string name="options_indexes2">Current index values for this wallet.</string>
-    <string name="options_whirlpool_gui">Pair to Whirlpool GUI</string>
-    <string name="options_whirlpool_gui2">Pair to Whirlpool GUI for continuous mixing.</string>
+    <string name="options_address_calc">Obliczanie adresów</string>
+    <string name="options_address_calc2">Oblicz adresy z twojego ziarna.</string>
+    <string name="options_paynym_calc">Kalkulator PayNym</string>
+    <string name="options_paynym_calc2">Oblicz adresy dla PayNym.</string>
+    <string name="options_indexes">Indeks portfela</string>
+    <string name="options_indexes2">Obecny index wartości dla tego portfela.</string>
+    <string name="options_whirlpool_gui">Sparuj z Whirlpool GUI</string>
+    <string name="options_whirlpool_gui2">Sparuj z Whirlpool GUI dla wpólnego miksowania.</string>
 
     <string name="prompt_send_backup_to_support">Send wallet backup to tech support? Does not include any private key, seed, or passphrase info.</string>
 
-    <string name="timeline_today">Today</string>
-    <string name="timeline_older">Older</string>
+    <string name="timeline_today">Dzisiejsze</string>
+    <string name="timeline_older">Stare</string>
 
     <string name="tx_sent">Transaction sent</string>
     <string name="tx_failed">Error sending transaction</string>
@@ -126,9 +126,9 @@
 
     <string name="sim_warning">Your Samourai Wallet device now has a different SIM card corresponding to incoming number of this text message.</string>
 
-    <string name="pin_5_8">Create a PIN code between 5 and 8 characters.</string>
-    <string name="pin_5_8_confirm">Confirm PIN code</string>
-    <string name="pin_error">Pin code error</string>
+    <string name="pin_5_8">Stwórz kod pin z 5-8 cyfr.</string>
+    <string name="pin_5_8_confirm">Potwierdź kod PIN</string>
+    <string name="pin_error">Błąd kodu PIN</string>
     <string name="no_internet">No Internet connectivity. Please try again.</string>
     <string name="bip38_pw">BIP38 password</string>
     <string name="bip38_pw_error">BIP38 password error</string>
@@ -191,7 +191,7 @@
     <string name="ssl_pinning_invalid">SSL certificate pinning has failed. This might indicate malicious activity. Please verify your network connection and device before continuing.</string>
     <string name="ssl_no_connection">We are unable to connect to the host to verify the SSL certificate. Please verify your network connection and device before continuing.</string>
     <string name="retry">Retry</string>
-    <string name="exit">Exit</string>
+    <string name="exit">Wyjście</string>
 
     <string name="create_pin">Create PIN code</string>
     <string name="confirm_pin">Confirm PIN code</string>
