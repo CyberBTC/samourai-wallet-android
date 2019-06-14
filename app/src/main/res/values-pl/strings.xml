@@ -217,22 +217,22 @@
     <string name="encryption_error">There was an error while encrypting your wallet backup. Please try again.</string>
     <string name="import_backup">Z kopii zapasowej</string>
     <string name="import_mnemonic">Ziarno/seed</string>
-    <string name="encrypted_backup">dande portfela</string>
+    <string name="encrypted_backup">Zaszyfrowane dane portfela</string>
     <string name="decryption_error">There was an error while decrypting your wallet backup. Please try again.</string>
     <string name="restore_wallet_from_backup">Przywróć portfel z kopii zapasowej</string>
     <string name="restore_wallet_from_existing_backup">Kopia zapasowa portfela znaleziona na urządzeniu. To restore from existing backup, tap \'OK\', otherwise copy/paste different backup and tap \'OK\'.</string>
 
     <string name="choose_email_client">Choose an Email client:</string>
 
-    <string name="cannot_launch_app">Samourai Wallet cannot be run on this device</string>
-    <string name="confirm_change_pin">Are you sure you want to change your PIN?</string>
+    <string name="cannot_launch_app">Portfel Samourai nie może zostać uruchomiony na tym urządzeniu</string>
+    <string name="confirm_change_pin">Chcesz zmienić swój PIN?</string>
     <string name="success_change_pin">Zmiana kodu PIN</string>
     <string name="alternative_pin_create">Are you sure you want to create an alternative PIN to be used for stealth launch and remote commands?</string>
     <string name="alternative_pin_deleted">You are not using any alternative PIN code for stealth and remote functions.</string>
     <string name="alternative_pin_wait">Wait for stealth launch mode to fully activate before defining an alternative PIN code.</string>
 
-    <string name="invalid_payment_code">Invalid payment code</string>
-    <string name="error_payment_code">Error generating payment code</string>
+    <string name="invalid_payment_code">Błędny kod płatności</string>
+    <string name="error_payment_code">Błąd tworzenia kodu płatności</string>
 
     <string name="bip47_setup1_title">Twój PayNym</string>
     <string name="bip47_setup4_title">Dodaj kontakt PayNym</string>
@@ -318,9 +318,9 @@
     <string name="trusted_node_ko">Trusted node not recognized. Please check installation.</string>
     <string name="trusted_node_error">Error reaching proposed trusted node.</string>
     <string name="trusted_node_tx_error">Transaction failed on trusted node.</string>
-    <string name="trusted_node_not_core_131">Trusted node is set. Note that Samourai Wallet supports Bitcoin Core 0.13.1 and over.</string>
-    <string name="trusted_node_tx_sent">Transaction sent via trusted node.</string>
-    <string name="trusted_node_not_responding">Trusted node not responding. Please check installation.</string>
+    <string name="trusted_node_not_core_131">Zaufany węzeł jest ustawiony. Note that Samourai Wallet supports Bitcoin Core 0.13.1 and over.</string>
+    <string name="trusted_node_tx_sent">Transakcja wysłana za pośrednictwem zaufanego węzła.</string>
+    <string name="trusted_node_not_responding">Zaufany węzeł nie odpowiada. Prosze sprawdzić konfigurację.</string>
     <string name="trusted_node_breaks_consensus">Trusted node cannot be set on a bitcoin client that breaks consensus.</string>
 
     <string name="refresh_tx_pre">Retrieving transactions and balance.</string>
@@ -336,7 +336,7 @@
     <string name="fee_bump_not_necessary">Be advised that bumping the fee may not be necessary for this transaction.</string>
     <string name="bump_fee">Would you like to increase the miner fee of this transaction for quicker confirmation?\n\nAdditional Miner Fee:</string>
 
-    <string name="options_sign">Sign message</string>
+    <string name="options_sign">Podpisz wiadomość</string>
 
     <string name="trusted_node_pow_failed">The proof-of-work being reported by your trusted node is not verifying. Please check your installation.</string>
 
@@ -346,20 +346,20 @@
     <string name="current_mid_fee_value">Current normal fee:</string>
     <string name="current_lo_fee_value">Current low fee:</string>
     <string name="slash_sat">sat/b</string>
-    <string name="set_sat">Set your custom fee in sat/b.</string>
+    <string name="set_sat">Ustaw swoją wybraną opłatę w sat/b.</string>
     <string name="custom_fee_too_low">Custom fee is set too low.</string>
     <string name="custom_fee_too_high">Custom fee is set too high.</string>
 
-    <string name="cpfp_spent">CPFP transaction sent.</string>
-    <string name="rbf_spent">RBF transaction sent.</string>
-    <string name="cannot_output_dust">Cannot make transaction with dust output.</string>
+    <string name="cpfp_spent">Wysłanie CPFP transakcji.</string>
+    <string name="rbf_spent">Wysłanie RBF transakcji.</string>
+    <string name="cannot_output_dust">Nie można stworzyć transakcji z wyjściem wielkości pyłu.</string>
     <string name="cannot_create_change_output">Cannot create change output.</string>
     <string name="cannot_create_cpfp">Cannot create CPFP transaction.</string>
 
     <string name="error_reading_payload">Error reading payload. Please try again.</string>
 
-    <string name="utxo_sign">Sign message</string>
-    <string name="utxo_sign_text1">Sign message using this private key?</string>
+    <string name="utxo_sign">Podpisz wiadomość</string>
+    <string name="utxo_sign_text1">Podpisać wiadomość używając klucza prywatnego?</string>
     <string name="utxo_sign_text2">Signed using utxo.</string>
     <string name="utxo_sign_text3">Signed using utxo.</string>
 
@@ -379,7 +379,7 @@
     <string name="opendime_sweep">SWEEP</string>
     <string name="opendime_topup">TOP UP</string>
 
-    <string name="select_app">Select application</string>
+    <string name="select_app">Wybierz aplikację</string>
     <string name="samourai_opendime">Samourai: OpenDime</string>
 
     <string name="replay_protection">Replay protection</string>
