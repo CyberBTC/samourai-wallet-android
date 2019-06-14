@@ -156,7 +156,7 @@
     <string name="wallet_created_ok">Stworzono nowy portfel.</string>
     <string name="wallet_created_ko">Błąd podczas tworzenia portfela.</string>
     <string name="wallet_restored_ok">Portfel przywrócony poprawnie.</string>
-    <string name="wallet_restored_ko">Error restoring wallet.</string>
+    <string name="wallet_restored_ko">Błąd przywracania portfela.</string>
 
     <string name="address_used_previously">You have used this address before! Reusing addresses may result in a loss of privacy.</string>
 
@@ -173,11 +173,11 @@
     <string name="invalid_address">Niepoprawny adres</string>
     <string name="amount">Warość</string>
 
-    <string name="receive_address_to_clipboard">Copy this receive address to the clipboard? If copied, it may be visible to other applications.</string>
-    <string name="txid_to_clipboard">Copy this transaction id  to the clipboard? If copied, it may be visible to other applications.</string>
-    <string name="receive_address_to_share">Share this receive address? If shared, it may be read to other applications.</string>
-    <string name="sure_to_erase">Are you sure you want to erase this wallet?</string>
-    <string name="wallet_erased">Wallet erased from device.</string>
+    <string name="receive_address_to_clipboard">Skopiować ten adres do schowka? Jeżeli zostanie skopiowany, będzie widoczny dla innych aplikacji.</string>
+    <string name="txid_to_clipboard">Skopiować ten adres do schowka? Jeżeli zostanie skopiowany, będzie widoczny dla innych aplikacji.</string>
+    <string name="receive_address_to_share">Opublikuj ten adres odbioru? Jeżeli zostanie opublikowany, będzie widoczny dla innych aplikacji.</string>
+    <string name="sure_to_erase">Jesteś pewien że chcesz usunąć ten portfel?</string>
+    <string name="wallet_erased">Portfel usunięty z urządzenia.</string>
 
     <string name="send_privacy_warning">Privacy warning: be aware that you have already sent funds to this address.</string>
 
@@ -190,11 +190,11 @@
 
     <string name="ssl_pinning_invalid">SSL certificate pinning has failed. This might indicate malicious activity. Please verify your network connection and device before continuing.</string>
     <string name="ssl_no_connection">We are unable to connect to the host to verify the SSL certificate. Please verify your network connection and device before continuing.</string>
-    <string name="retry">Retry</string>
+    <string name="retry">Ponowna próba</string>
     <string name="exit">Wyjście</string>
 
-    <string name="create_pin">Create PIN code</string>
-    <string name="confirm_pin">Confirm PIN code</string>
+    <string name="create_pin"Stwórz kod PIN</string>
+    <string name="confirm_pin">Potwierdź kod PIN</string>
 
     <string name="auto_fee">NORMALNA OPŁATA</string>
     <string name="priority_fee">PRIORYTETOWA OPŁATA</string>
@@ -217,10 +217,10 @@
     <string name="encryption_error">There was an error while encrypting your wallet backup. Please try again.</string>
     <string name="import_backup">Z kopii zapasowej</string>
     <string name="import_mnemonic">Ziarno/seed</string>
-    <string name="encrypted_backup">Encrypted wallet data</string>
+    <string name="encrypted_backup">dande portfela</string>
     <string name="decryption_error">There was an error while decrypting your wallet backup. Please try again.</string>
-    <string name="restore_wallet_from_backup">Restore wallet from backup</string>
-    <string name="restore_wallet_from_existing_backup">Backup found on device. To restore from existing backup, tap \'OK\', otherwise copy/paste different backup and tap \'OK\'.</string>
+    <string name="restore_wallet_from_backup">Przywróć portfel z kopii zapasowej</string>
+    <string name="restore_wallet_from_existing_backup">Kopia zapasowa portfela znaleziona na urządzeniu. To restore from existing backup, tap \'OK\', otherwise copy/paste different backup and tap \'OK\'.</string>
 
     <string name="choose_email_client">Choose an Email client:</string>
 
@@ -257,7 +257,7 @@
     <string name="bip47_status_incoming">Gotowy do odbioru</string>
     <string name="bip47_cannot_scan_own_pcode">Cannot scan your own payment code</string>
     <string name="bip47_spend_to_pcode">Send through this payment channel?</string>
-    <string name="bip47_sign">Sign message</string>
+    <string name="bip47_sign">Podpisz wiadomość</string>
     <string name="bip47_sign_text1">Sign message using BIP47 notification address private key?</string>
     <string name="bip47_sign_text2">Signed using my BIP47 notification address.</string>
     <string name="bip47_wait_for_confirmation_or_retry">This payment channel is waiting for 1 confirmation before sending is activated. Would you like to discard the previous attempt and resend a notification?</string>
@@ -265,7 +265,7 @@
     <string name="rbf_incoming">The incoming transaction is replace-by-fee. View in block explorer?</string>
 
     <string name="invalid_passphrase">Invalid passphrase</string>
-    <string name="passphrase">Passphrase</string>
+    <string name="passphrase">Hasło</string>
     <string name="passphrase_needed_for_backup">Your wallet is not protected by a passphrase. Wallet backups are encrypted using your wallet passphrase. If you would like to use encrypted wallet backups and other Samourai Wallet features create your wallet using Samourai Wallet and transfer your funds.</string>
     <string name="passphrase_required">A passphrase is required to use this function. Please consider creating a new wallet which will automatically include a passphrase.</string>
 
@@ -281,24 +281,24 @@
 
     <string name="change_is_dust">The change from this transaction is a dust amount. Try again and either modify the spend amount or spend the entire balance.</string>
 
-    <string name="tor_routing_on">Samourai is routing via Tor.</string>
-    <string name="tor_routing_off">Samourai is not routing via Tor. Tap to activate.</string>
-    <string name="tor_install">Tap to install Orbot and route Samourai through Tor.</string>
+    <string name="tor_routing_on">Samourai łączy się przez Tor.</string>
+    <string name="tor_routing_off">Samourai nie łączy się przez Tor. Kliknij żeby aktywować.</string>
+    <string name="tor_install">Kliknij żeby zainstalować Orbot i połączyć Samaurai przez Tor.</string>
 
-    <string name="premium_addons">Premium Addons</string>
+    <string name="premium_addons">Dodatki Premmium</string>
 
-    <string name="ricochet_hop">Ricochet Hop</string>
-    <string name="ricochet_hopping">Ricocheted to</string>
-    <string name="ricochet_spend1">Ricochet spend to</string>
-    <string name="ricochet_spend2">for a total amount of</string>
+    <string name="ricochet_hop">Skok Rykoszetu</string>
+    <string name="ricochet_hopping">Rykoszet do</string>
+    <string name="ricochet_spend1">Wyślij Rykoszet do</string>
+    <string name="ricochet_spend2">dla całkowitego salda</string>
     <string name="ricochet_spend3">(includes 0.002 BTC fee to Samourai and miners\' fees)?</string>
 
     <string name="action_ricochet">Powtórz Rykoszet</string>
-    <string name="action_empty_ricochet">Empty Ricochet queue</string>
-    <string name="ricochet">Ricochet - send with 4 extra hops</string>
-    <string name="action_ricochet_script">Display Ricochet script</string>
-    <string name="action_ricochet_replay">Resend Ricochet</string>
-    <string name="ricochet_replay">Do you want to rebroadcast this Ricochet spend?</string>
+    <string name="action_empty_ricochet">Puste żądanie Rykoszetu</string>
+    <string name="ricochet">Ricochet - wyślij z 4 dodatkowymi skokami</string>
+    <string name="action_ricochet_script">Pokaż skrypt Rykoszetu</string>
+    <string name="action_ricochet_replay">Wyślij Rykoszet</string>
+    <string name="ricochet_replay">Chcesz rozgłosić tę transakcję Rykoszetu?</string>
     <string name="ricochet_not_broadcast_replay">There was a problem broadcasting your Ricochet. Do you want to rebroadcast this Ricochet spend?</string>
     <string name="no_ricochet_replay">There is no Ricochet to be resent.</string>
     <string name="no_ricochet_display">There is no Ricochet script to display.</string>
@@ -309,9 +309,9 @@
 
     <string name="pushtx_returns_null">Spend failed. Server returned null value.</string>
 
-    <string name="trusted_node">Trusted node</string>
+    <string name="trusted_node">Zaufany węzeł</string>
     <string name="trusted_node_user_hint">rpc user name</string>
-    <string name="trusted_node_ip_hint">IP address</string>
+    <string name="trusted_node_ip_hint">Adres IP</string>
     <string name="trusted_node_port_hint">Port (8332 default)</string>
     <string name="trusted_node_password_hint">rpc user password</string>
     <string name="trusted_node_not_valid">Please supply valid info for your trusted node.</string>
@@ -329,7 +329,7 @@
     <string name="refresh_outgoing_notif_tx">Updated outgoing BIP47 notification transactions.</string>
 
     <string name="options_unconfirmed_tx">This transaction is awaiting confirmation. Please select an option:</string>
-    <string name="options_block_explorer">View transaction</string>
+    <string name="options_block_explorer">Pokaż transakcje</string>
     <string name="options_bump_fee">Increase tx fee</string>
 
     <string name="cpfp_cannot_retrieve_tx">Cannot retrieve transaction information. Please try again.</string>
