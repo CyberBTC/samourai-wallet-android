@@ -35,6 +35,10 @@
     <string name="options_xpub49_2">Pokaż rozszerzony klucz publiczny dla konta BIP49 Segwit (P2SH-wrapped).</string>
     <string name="options_xpub84">Pokaż Segwit ZPUB</string>
     <string name="options_xpub84_2">Pokaż rozszerzony klucz publiczny dla konta BIP49 Segwit (bech32).</string>
+    <string name="options_xpub84_premix">Show Whirlpool pre-mix ZPUB</string>
+    <string name="options_xpub84_premix2">Show extended public key for BIP84 Segwit account (Bech32) Whirlpool pre-mix.</string>
+    <string name="options_xpub84_postmix">Show Whirlpool post-mix ZPUB</string>
+    <string name="options_xpub84_postmix2">Show extended public key for BIP84 Segwit account (Bech32) Whirlpool post-mix.</string>
     <string name="options_wipe">Bezpieczne usuwanie portfela</string>
     <string name="options_wipe2">Bezpiecznie usuń portfel z tego urządzenia</string>
     <string name="options_stealth_display">Uruchom ukryty</string>
@@ -100,6 +104,7 @@
     <string name="options_indexes2">Obecny index wartości dla tego portfela.</string>
     <string name="options_whirlpool_gui">Sparuj z Whirlpool GUI</string>
     <string name="options_whirlpool_gui2">Sparuj z Whirlpool GUI dla wpólnego miksowania.</string>
+    <string name="options_postmix">Spend from post-mix Whirlpool</string>
 
     <string name="prompt_send_backup_to_support">Send wallet backup to tech support? Does not include any private key, seed, or passphrase info.</string>
 
@@ -262,7 +267,7 @@
     <string name="bip47_sign_text2">Signed using my BIP47 notification address.</string>
     <string name="bip47_wait_for_confirmation_or_retry">This payment channel is waiting for 1 confirmation before sending is activated. Would you like to discard the previous attempt and resend a notification?</string>
 
-    <string name="rbf_incoming">The incoming transaction is replace-by-fee. View in block explorer?</string>
+    <string name="rbf_incoming">Przychdząca transakcja jest z replace-by-fee. Wyświetlić w eksplorerze?</string>
 
     <string name="invalid_passphrase">Invalid passphrase</string>
     <string name="passphrase">Hasło</string>
@@ -274,12 +279,12 @@
     <string name="api_key_error">Błędny klucz API.</string>
     <string name="api_token_error">Błędny klucz API.</string>
 
-    <string name="cannot_recognize_privkey">Cannot recognize private key</string>
-    <string name="cannot_sweep_privkey">Error sweeping private key</string>
-    <string name="please_wait_sending">Sending transaction, please wait.</string>
-    <string name="please_wait_ricochet">Processing Ricochet queue, please wait.</string>
+    <string name="cannot_recognize_privkey">Nie można rozpoznać klucza prywatnego</string>
+    <string name="cannot_sweep_privkey">Błąd dodawania klucza prywatnego</string>
+    <string name="please_wait_sending">Wysyłanie transakcji, proszę czekać.</string>
+    <string name="please_wait_ricochet">Przetwarzanie kolejki Ricochet, proszę czekać.</string>
 
-    <string name="change_is_dust">The change from this transaction is a dust amount. Try again and either modify the spend amount or spend the entire balance.</string>
+    <string name="change_is_dust">Reszta z tej transakcji to wartość pyłu. Spróbuj ponownie i zmodyfikuj wartość transakcji, lub wydaj całe saldo.</string>
 
     <string name="tor_routing_on">Samourai łączy się przez Tor.</string>
     <string name="tor_routing_off">Samourai nie łączy się przez Tor. Kliknij żeby aktywować.</string>
@@ -315,7 +320,7 @@
     <string name="trusted_node_port_hint">Port (8332 default)</string>
     <string name="trusted_node_password_hint">rpc user password</string>
     <string name="trusted_node_not_valid">Please supply valid info for your trusted node.</string>
-    <string name="trusted_node_ko">Trusted node not recognized. Please check installation.</string>
+    <string name="trusted_node_ko">Zaufany węzeł nie rozpoznany. Sprawdź konfigurację.</string>
     <string name="trusted_node_error">Error reaching proposed trusted node.</string>
     <string name="trusted_node_tx_error">Transaction failed on trusted node.</string>
     <string name="trusted_node_not_core_131">Zaufany węzeł jest ustawiony. Note that Samourai Wallet supports Bitcoin Core 0.13.1 and over.</string>
